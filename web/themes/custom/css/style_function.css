@@ -1,0 +1,57 @@
+/* highlight reset form button */
+.bp-search-page .form-actions #edit-reset {
+        border: solid 2pt;
+        border-color: #1d84c3;
+        color: #1d84c3;
+}
+
+/* paged search */
+.bp-search-page-paged .view-filters {
+        display: none;
+}
+
+/* logos */
+.block-simple-blocklindat-logo, .block-simple-blocktacr-logo, .block-simple-blockdiecezni-muzeum-logo {
+        height: 60px;
+        display: inline-flex;
+}
+
+.block-simple-blocklindat-logo img, .block-simple-blocktacr-logo img, .block-simple-blockdiecezni-muzeum-logo img {
+        width: auto;
+        height: 50px;
+}
+
+/* filter layout */
+.bp-search-page .view-filters div.form--inline {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.bp-search-page .view-filters .form--inline hr {
+        width: 100%;
+        margin: 0;
+        border: none;
+}
+
+.bp-search-page .view-filters .form--inline .form-item {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        align-self: end;
+}
+
+.bp-search-page .view-filters .form--inline .form-item-heading {
+        margin-top: 1em;
+}
+
+/* results pages */
+.bp-results-page .views-col .views-row {
+        border: none;
+        padding: 0;
+        margin: 0;
+}
+
+/* hide upper pager */
+.no-upper-pager .upper-pager {
+        display: none;
+}
+

@@ -1,0 +1,778 @@
+body {
+	border-top: #4BC8FF solid 6px;
+	border-bottom: #4BC8FF solid 6px;
+        background-image: none;
+        background-color: white;
+        font: normal 16px/1.45 Arial,Helvetica Neue,sans-serif;
+	color: black;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.layout-container {
+    max-width: 1200px;
+}
+
+html, body, textarea, p {
+        font: normal 16px/1.45 Arial,Helvetica Neue,sans-serif;
+}
+
+a, a:visited, 
+.site-footer .content a, 
+.site-footer .content a:visited,
+.node--view-mode-teaser h2 a {
+        color: black;
+        text-decoration: underline;
+	border-bottom: none;
+}
+
+a:hover, 
+.site-footer .content a:hover,
+.node--view-mode-teaser h2 a:hover {
+        color: black;
+        text-decoration: underline;
+	border-bottom: none;
+}
+
+.button {
+	border: 2px solid black;
+	background: white;
+	border-radius: 0;
+	color: black;
+}
+
+.button:hover {
+	border: 2px solid black;
+	background: black;
+	border-radius: 0;
+	color: white;
+}
+
+.region-header .block:not(.site-branding) {
+
+    font-size: inherit;
+
+}
+
+div.region-primary-menu {
+	margin-top: 1rem;
+}
+
+select {
+	border-radius: 0;
+	border: 1px solid black;
+	font-size: 0.9rem;
+	padding: 0.2rem;
+}
+
+
+#header {
+	background-image: inherit;
+	color: black;
+	background-color: white;
+	border-bottom: #DCDCDC solid 2px;
+}
+
+div.region-header, div.region-primary-menu {
+	max-width: 1200px;
+}
+
+
+div.region-header {
+	margin-top: 1rem;	
+}
+
+a.site-branding__logo img {
+	height: 68px;
+}
+
+div.site-branding__text {
+	display: none;
+}
+
+
+.region-header, .region-header a, .region-header li a.is-active, .region-header .site-branding__text, .region-header .site-branding, .region-header .site-branding__text a, .region-header .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+    color: black;
+    text-decoration: none;
+}
+
+.js input.form-autocomplete {
+        background-image: none;
+
+}
+
+.js input.form-autocomplete.ui-autocomplete-loading {
+        background-image: none;
+}
+
+
+.region-header .block:not(.site-branding) {
+	margin: 0;
+}
+
+.region-header .site-branding, .region-header .block {
+        float: none;
+}
+
+div.region-header {
+        display: flex;
+        width: 1170px;
+        flex-wrap: wrap;
+	align-items: stretch;
+}
+
+#block-islandora-muni-branding {
+        flex-grow: 1;
+}
+
+#block-islandora-muni-exposedformbp-searchpage-keyword {
+	clear: none;
+	float: none;
+}
+
+#block-islandora-muni-exposedformbp-searchpage-keyword label {
+	display: none;
+}
+
+#block-islandora-muni-exposedformbp-searchpage-keyword input {
+	border: 1px solid #DDDDDD;
+	font-size: 1.2rem;
+	margin-top: 0;
+	width: 12rem;
+	margin-right: 0;
+	padding: 0.3rem;
+	margin: 0;
+}
+
+
+#block-islandora-muni-exposedformbp-searchpage-keyword div.form-actions {
+	display: none;
+}
+
+
+div.language-switcher-language-url {
+	clear: none;
+	float: none;
+	padding-left: 2rem;
+	padding-top: 1.2rem;
+	font-size: 1.5rem;
+	color: #0000DC;
+}
+
+div.language-switcher-language-url a {
+	color: #0000DC;
+	font-size: 1.2rem;
+}
+
+div.language-switcher-language-url li.is-active {
+	display: none;
+}	
+
+#superfish-main-toggle {
+	text-decoration: none;
+}
+
+#superfish-main-toggle span {
+	display: none;
+}
+
+#superfish-main-toggle::before {
+  visibility: visible;
+  margin-left: 15px;
+  width: 90%;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: black;
+  content: "\2630";
+}
+
+
+#block-separator {
+	border: 0;
+	color: white;
+	margin-bottom: 0.1rem;
+}
+
+#line-separator {
+	margin-left: calc(-51vw + 50%);
+	margin-right: calc(-50vw + 50%);
+	height: 2px;
+	background: #DCDCDC;
+/*	margin-bottom: 0.5rem; */
+}
+
+
+@media (min-width: 461px) and (max-width: 900px) {
+	.region-primary-menu .menu-item, body:not(:target) .region-primary-menu .menu-item {
+		width: auto;
+		margin: 0 1px;
+		padding: 0 1px;
+	}
+
+	.region-primary-menu .menu {
+		padding: 0 15px;
+	}
+}
+
+
+#block-islandora-muni-main-menu a.menu-toggle {
+	visibility: hidden;
+	position: relative;
+	word-spacing: -999px;
+    	letter-spacing: -999px;
+	margin-bottom: 1rem;
+}
+
+#block-islandora-muni-main-menu a.menu-toggle:after {
+	visibility: visible;
+	position: absolute;
+	left: 15px;
+	word-spacing: normal;
+	letter-spacing: normal;
+	width: 90%;
+	font-weight: bold;
+	font-size: 1.8rem;
+	color: #0000DC;
+	content: "\2630";
+}
+
+
+ul.menu > li.menu-item > a {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: black;
+}
+
+ul.menu > li.menu-item > span {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: black;
+	/*
+	display: none;
+	*/
+}
+
+div.region-primary-menu {
+	padding-left: 1rem;
+}
+
+ul.sf-menu span.nolink {
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+span.sf-sub-indicator {
+	display: none;
+}
+
+span.menuparent::after {
+        content: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='13' height='13' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' /></g></svg>");
+        font-weight: bold;
+        padding-left: 0.5rem;
+}
+
+
+ul.menu > li.menu-item > a.is-active {
+    color: #000;
+    font-weight: bold;
+}
+
+.region-primary-menu .menu a {
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+.region-primary-menu {
+	clear: inherit;
+}
+
+div.block-entity-comparison-blocktkanina a {
+	white-space: nowrap;
+}
+
+
+#block-islandora-muni-tkanina {
+	float: right;
+}
+
+@media (max-width: 800px) {
+	#block-islandora-muni-tkanina {
+		float: none;
+		height: auto;
+	}
+
+}
+
+@media (max-width: 460px) {
+body:not(:target) .region-primary-menu .menu-item {
+	height: auto;
+}
+}
+
+
+
+li.menu-item menuparent ul {
+
+}
+
+ul.sf-menu.sf-horizontal.sf-shadow ul, ul.sf-menu.sf-vertical.sf-shadow ul, ul.sf-menu.sf-navbar.sf-shadow ul ul {
+	box-shadow: none;
+	border: 2px solid #dcdcdc;
+	border-top: 0;
+	margin-top: 1rem;
+	background-color: white;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+
+
+ul.js-facets-widget {
+	padding-bottom: 1.5rem;
+}
+
+div.facets-widget-links > a.facets-soft-limit-link {
+	font-style: italic;
+}
+
+div.region-sidebar-first #views-exposed-form-arrows-page-1 > div > div {
+	float: none;
+}
+
+#sidebar-second {
+	margin-left: 0; 
+	margin-top: 4rem;
+}
+
+.sidebar .block {
+	border: 1px solid #0000dc;
+	background-color: white;
+	border-top: 10px solid #0000dc;
+}
+
+#main {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.region-breadcrumb {
+	flex-basis: 100%;
+}
+
+#content {
+	flex-grow: 2;
+}
+
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	color: black;
+}
+
+.chosen-container-multi .chosen-choices {
+	background: #eee;
+}
+
+
+#main-content {
+	display: none;
+}
+
+.layout-one-sidebar .main-content {
+	width: inherit;
+}
+
+.layout-sidebar-first .main-content {
+	margin-left: 0;
+}
+
+body.path-frontpage div.region-content {
+	margin-top: 4rem;
+}
+
+div.region-footer-first > div.block.block-simple-block {
+	margin: 0;
+	margin-right: 1rem;
+}
+
+
+.featured-bottom {
+	background-color: white;
+}
+
+.featured-bottom h2 {
+	text-align: left;
+}
+
+span.views-label-title {
+	font-weight: bold;
+}
+
+
+#block-icsmunilogo-2 img {
+	width: 78px;
+	height: 60px;
+}
+
+footer.site-footer {
+	border-top: #DCDCDC solid 2px;
+	background-color: white;
+	color: black;
+	padding: 0;
+	margin-bottom: 2rem;
+}
+
+div.region-footer-first {
+	display: flex;
+	align-items: center;
+	width: 1170px;
+	flex-wrap: wrap;
+}
+
+div.block-simple-blockcopyright-and-webmaster {
+	flex-grow: 1;
+}
+
+.site-footer .block {
+	padding: 0;
+}
+
+.site-footer .content {
+	color: black;
+}
+
+
+
+/*
+#block-islandora-muni-content {
+	display: none;
+}
+*/
+
+
+body.path-frontpage section.section {
+	margin-top: -25px;
+}
+
+#block-frontpagejumbotron > div.content {
+	position: relative;
+	background-image: url('/core/themes/bartik/islandora_muni/header.jpg');
+	background-repeat: no-repeat;
+  	background-size: contain;
+	width: 100%;
+	/*height: 23.7vw;*/
+	/* height: 66vw; */
+	height: 25.3vw;
+	max-width: 1170px;
+	/*max-height: 278px;*/
+	/* max-height: 773px; */
+	max-height: 297px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+#block-frontpagejumbotron > div.content > p {
+	transform: translateY(2vw); 
+	font-weight: bold;
+	color: white;
+	padding: 1rem;
+}
+
+#block-frontpagejumbotron > div.content span {
+	width: 100%;
+	font-size: 1.3rem;
+}
+
+#block-frontpagejumbotron > div.content span:nth-child(1) {
+	font-size: 3.2rem;
+}
+
+@media (min-width: 1170px) {
+
+	#block-frontpagejumbotron > div.content span {
+		font-size: 1.3rem;
+	}
+
+	#block-frontpagejumbotron > div.content span:nth-child(1) {
+		font-size: 3.2rem;
+	}
+
+	#block-frontpagejumbotron > div.content > p {
+		transform: translateY(30%);
+	}
+}
+
+@media (max-width: 768px) {
+		
+	#block-frontpagejumbotron > div.content span {
+		font-size: 1rem;
+	}
+
+	#block-frontpagejumbotron > div.content span:nth-child(1) {
+		font-size: 2.6rem;
+	}
+
+	#block-frontpagejumbotron > div.content > p {
+		transform: translateY(1.5vw);
+		padding: .5rem;
+	}
+
+}
+
+@media (max-width: 560px) {
+	#block-frontpagejumbotron > div.content span:nth-child(1) {
+		font-size: 1.5rem;
+	}
+
+	#block-frontpagejumbotron > div.content > p {
+		transform: translateY(1.3vw);
+		padding: .2rem;
+	}
+
+}
+
+@media (max-width: 480px) {
+	#block-frontpagejumbotron > div.content span:nth-child(1) {
+		font-size: 1.2rem;
+	}
+	#block-frontpagejumbotron > div.content > p {
+		transform: translateY(0);
+		padding: .1rem;
+	}
+
+}
+
+
+
+#block-frontpagesecond p:first-of-type {
+	margin-bottom: 0;
+}
+
+#block-frontpagecopyright img {
+	width: 110px;
+}
+
+
+#block-frontpagelogos img:first-of-type {
+	padding-right: 2rem;
+	margin-top: 1rem;
+}
+
+
+@media (max-width: 640px) {
+	.ds-2col-stacked-fluid > .group-left {
+		float: none;
+		width: 100%;
+	}
+
+	.ds-2col-stacked-fluid > .group-right {
+    		float: none;
+    		width: 100%;
+	}	
+}
+
+div.arrows-table table {
+	table-layout: fixed;
+}
+
+div.arrows-table table td, div.arrows-table table th {
+	padding: 4px 5px;
+}
+
+div.arrows-table table td {
+	text-overflow: clip;
+        overflow: hidden;
+}
+
+div.arrows-table table th {
+	text-overflow: clip;
+        overflow: hidden;
+	font-weight: normal;
+}
+
+
+
+td.views-field-field-grave-1 {
+	overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+	td.views-field-field-weight-g,
+	td.views-field-field-functional-length,
+	td.views-field-field-functional-width,
+	td.views-field-field-tcsa-mm2,
+	td.views-field-field-tcsp-mm {
+		white-space: nowrap;
+	}
+}
+
+td.views-field-field-weight-g,
+td.views-field-field-functional-length,
+td.views-field-field-functional-width,
+td.views-field-field-tcsa-mm2,
+td.views-field-field-tcsp-mm {
+	text-align: right;
+}
+
+
+th.views-field-title, td.views-field-title,
+th.views-field-field-site, td.views-field-field-site {
+	width: 25%;
+}
+
+th.views-field-field-weight-g, td.views-field-field-weight-g,
+th.views-field-field-functional-length, td.views-field-field-functional-length,
+th.views-field-field-functional-width, td.views-field-field-functional-width,
+th.views-field-field-tcsa-mm2, td.views-field-field-tcsa-mm2,
+th.views-field-field-tcsp-mm, td.views-field-field-tcsp-mm
+{
+	width: 10%;
+}
+
+article.media--view-mode-open-seadragon .field--type-image {
+	width: 100%;
+	max-width: 1260px;	
+}
+
+.openseadragon-viewer {
+	width: inherit;
+}
+
+
+
+
+
+div.feed-icons {
+	display: none;
+}
+
+#block-frontpage {
+	background-color: #DDDDDD;
+	padding: 1rem;
+}
+
+nav.pager {
+	margin-top: 2rem;
+	
+}
+
+#edit-search-api-fulltext--2 {
+	width: 100%;
+}
+
+#block-islandora-muni-content div.field__label {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#block-islandora-muni-content div.field--type-entity-reference {
+	margin: 0;
+}
+
+#block-islandora-muni-content div.field {
+	margin-bottom: 0.3rem;
+}
+
+
+#block-islandora-muni-content div.group-footer {
+	padding-top: 2rem;
+}
+
+
+div.view-projectiles-openseadragon-media-evas tr {
+	border-width: 0.4rem;
+	border-color: white;
+}
+
+.site-footer__top .region {
+	width: 100%; 
+}
+
+
+div.site-footer__top tr {
+	background-color: white;
+}
+
+div.site-footer__top td {
+	padding: 0 1rem;
+}
+
+div.site-footer__top img {
+	max-width: inherit;
+}
+
+.footer-logo {
+	height: 50px;
+	padding-left: 1.5rem;
+}
+
+div.block-simple-blockfooter-copyright-cs, 
+div.block-simple-blockfooter-copyright-en {
+	flex-grow: 2;
+}
+
+.site-footer .content  a {
+	color: #0000DC;
+}
+
+	
+#block-footercontact a {
+	padding: .7rem 1rem;
+	background-color: #0000DC;
+	color: white;
+	text-decoration: none;
+	font-size: 1.25rem;
+	margin-top: .2rem;
+}
+
+#block-footercontact a:hover {
+	background-color: black;
+}
+
+img.arts-logo {
+	height: 47px;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+div.muniweb-bar-cookies__row-main {
+        margin: 0 auto;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+}
+
+div.muniweb-bar-cookies {
+        margin: 0 auto;
+}
+
+
+article.node--view-mode-full span.fabric-title-heading {
+	font-weight: bold;
+}
+
+article.node--view-mode-full div.field__label {
+	font-size: inherit;
+	font-weight: bold;
+}
+
+article.node--view-mode-full div.field--label-inline {
+	margin: 0;
+}
+
+article.node--view-mode-full a.use-ajax.add-link {
+	margin-top: 1rem;
+}
+
+
+.text-formatted ol, 
+.text-formatted ul {
+	padding: 0 2.5rem;
+	margin: 1.5rem 0 0 0;
+}
+
+.text-formatted ul {
+	padding: 0 2.5rem;
+}
